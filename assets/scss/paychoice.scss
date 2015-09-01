@@ -1,0 +1,42 @@
+@import "bourbon/bourbon";
+@import "base/base";
+@import "neat/neat";
+// @import "components/form";
+@import "components/button";
+// @import "components/dropdown";
+// @import "components/input";
+// @import "semantic.min.css";
+// @import "components/accordion";
+// @import "components/ad";
+// @import "components/breadcrumb";
+// @import "components/card";
+// @import "components/checkbox";
+// @import "components/comment";
+// @import "components/dimmer";
+// @import "components/divider";
+// @import "components/feed";
+// @import "components/flag";
+// @import "components/header";
+// @import "components/image";
+// @import "components/item";
+// @import "components/label";
+// @import "components/list";
+// @import "components/table";
+// @import "components/modal";
+// @import "components/sidebar";
+// #carCode{
+// }
+p {
+    margin-bottom: 4em;
+}
+
+.botton-white {
+    border: 1px solid rgba(39, 41, 43, 0.15)!important;
+    font-weight: normal!important;
+    background-color: #fff!important;
+    color: #000;
+}
+
+.ui.button.fluid {
+    margin-bottom: 15px;
+}

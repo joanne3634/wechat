@@ -1,40 +1,69 @@
 @import "bourbon/bourbon";
 @import "base/base";
 @import "neat/neat";
-
 @import "components/form";
 @import "components/button";
-// @import "neat/neat-helpers";
-
+@import "components/dropdown";
+@import "components/input";
+@import "semantic.min.css";
 //@import "components/accordion";
-//@import "components/ad";
-//@import "components/breadcrumb";
-//@import "components/card";
-//@import "components/checkbox";
-//@import "components/comment";
-//@import "components/dimmer";
-//@import "components/divider";
-//@import "components/dropdown";
-//@import "components/feed";
-//@import "components/flag";
-//@import "components/header";
-//@import "components/image";
-//@import "components/input";
-//@import "components/item";
-//@import "components/label";
-//@import "components/list";
-//@import "components/table";
-//@import "components/modal";
-//@import "components/sidebar";
+// @import "components/ad";
+// @import "components/breadcrumb";
+// @import "components/card";
+// @import "components/checkbox";
+// @import "components/comment";
+// @import "components/dimmer";
+// @import "components/divider";
+// @import "components/feed";
+// @import "components/flag";
+// @import "components/header";
+// @import "components/image";
+// @import "components/item";
+// @import "components/label";
+// @import "components/list";
+// @import "components/table";
+// @import "components/modal";
+// @import "components/sidebar";
+// #carCode{
+// }
 
-#validateFields{
-	.validate-code{
-		@include span-columns(7);
-	}
-	.get-code-field{
-		@include span-columns(3);
-	}
+//驗證碼fields
+#validateFields {
+    margin-bottom: 1em;
+    .validate-code {
+        @include span-columns(7);
+    }
+    .get-code-field {
+        text-align: right;
+        @include span-columns(5);
+        #getCode {
+            @include span-columns(12);
+            border-radius: 0px!important;
+            border: 1px solid rgba(39, 41, 43, 0.15);
+        }
+    }
 }
 
-
-
+//車牌
+.ui.form .field > .selection.dropdown {
+    @include span-columns(4);
+    min-width: initial;
+    position: relative;
+    border-radius: 0px;
+    border: 1px solid rgba(39, 41, 43, 0.15);
+    margin-bottom: 1em;
+    margin-right: 0;
+}
+//車號
+#carNumber {
+    margin-bottom: 1em;
+    border-left: none;
+    width: 68.23843%;
+}
+//車牌字顏色
+.ui.default.dropdown:hover>.text,
+.ui.default.dropdown>.text,
+.ui.dropdown:hover>.default.text,
+.ui.dropdown>.default.text {
+    color: black;
+}

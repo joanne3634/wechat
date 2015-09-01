@@ -1,1 +1,1 @@
-jQuery(document).ready(function(e){});
+jQuery(document).ready(function(d){d("select.dropdown").dropdown()});

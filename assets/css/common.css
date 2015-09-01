@@ -3,3 +3,10 @@
 body {
   padding: 15px;
   background-color: #ececec; }
+
+.button-green {
+  background-color: #09ba07 !important;
+  color: #fff !important; }
+
+input {
+  border-radius: 0px !important; }
