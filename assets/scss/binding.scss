@@ -1,8 +1,14 @@
+@import "bourbon/bourbon";
+@import "base/base";
+@import "neat/neat";
+
 @import "components/form";
+@import "components/button";
+// @import "neat/neat-helpers";
+
 //@import "components/accordion";
 //@import "components/ad";
 //@import "components/breadcrumb";
-//@import "components/button";
 //@import "components/card";
 //@import "components/checkbox";
 //@import "components/comment";
@@ -21,6 +27,14 @@
 //@import "components/modal";
 //@import "components/sidebar";
 
+#validateFields{
+	.validate-code{
+		@include span-columns(7);
+	}
+	.get-code-field{
+		@include span-columns(3);
+	}
+}
 
 
 

@@ -13,18 +13,22 @@
 <body>
     <form class="ui form">
         <div class="field">
-            <input type="text" name="carNumber" placeholder="請輸入車牌號碼">
+            <input id="carNumber" type="text" name="carNumber" placeholder="請輸入車牌號碼">
         </div>
         <div class="field">
-            <input type="number" name="phone" placeholder="請輸入手機號碼">
+            <input id="phone" type="number" name="phone" placeholder="請輸入手機號碼">
         </div>
-        <div class="field">
-            <div class="ui checkbox">
-                <input type="checkbox" tabindex="0" class="hidden">
-                <label>I agree to the Terms and Conditions</label>
+        <div id="validateFields" class="fields">
+            <div class="validate-code">
+                <input id="validateCode" type="text" name="validateCode" placeholder="請輸入驗證碼">
+            </div>
+            <div class="get-code-field">
+                <button id="getCode" class="ui button">
+                    獲取驗證碼
+                </button>
             </div>
         </div>
-        <button class="ui button" type="submit">Submit</button>
+        <button class="fluid ui button" type="submit">立即注冊</button>
     </form>
     <script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="assets/minjs/biding.js" type="text/javascript" charset="utf-8"></script>
