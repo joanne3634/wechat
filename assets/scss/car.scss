@@ -1,0 +1,56 @@
+@import "bourbon/bourbon";
+@import "base/base";
+@import "neat/neat";
+@import "components/form";
+@import "components/dropdown";
+@import "components/input";
+@import "semantic.min.css";
+
+
+.ui.form .field {
+	width: 100%;
+    clear: both;
+    display: inline-flex;
+    margin-bottom: 1em;
+}
+.ui.form .fields:last-child, .ui.form .field:last-child {
+    margin-bottom: 1em;
+}
+.ui.form input[type="text"]{
+	text-align: center;
+}
+button.ui.button{
+	width: 60px;
+	margin-left: 5px;
+    margin-right: 0px;
+}
+.ui.button,#carNumberLabel {
+	color: black;
+    background-color: #ffffff;
+    padding: 0.6em 1em 0.6em 1em;    
+    text-transform: none;
+    text-shadow: none;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    border-radius: 0.2857rem;
+    border: 1px solid rgba(39, 41, 43, 0.15);
+    box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+}
+.ui.form .field > .selection.dropdown{
+    width: 40%;
+}
+.ui.selection.dropdown{
+    min-width: 50px;
+}
+#carNumber {
+    text-transform: uppercase;
+    border-left: none;
+    width: 55%;
+}
+.ui.default.dropdown:hover>.text,
+.ui.default.dropdown>.text,
+.ui.dropdown:hover>.default.text,
+.ui.dropdown>.default.text {
+    color: black;
+}

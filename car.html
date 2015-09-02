@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>我的车辆</title>
+    <link rel="stylesheet" href="assets/css/car.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+
+</head>
+
+<body>
+    <form class="ui form">
+         <div class="field">
+            <select id="carCode" class="ui dropdown">
+                <option value="">车牌</option>
+                <option value="0">京</option>
+                <option value="1">净</option>
+            </select>
+            <input id="carNumber" type="text" name="carNumber" maxlength="5">
+            <button id="carCreate" class="ui button" type="submit">新增</button>
+        </div>
+    </form>
+    <form class="ui form">
+        <div class="field">
+            <input placeholder="京A BC123" readonly="" type="text">
+            <button id="carDelete" class="ui button" type="submit">删除</button>
+        </div>
+    </form>
+    <form class="ui form">
+        <div class="field">
+            <input placeholder="京A BC123" readonly="" type="text">
+            <button id="carDelete" class="ui button" type="submit">删除</button>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/js/semantic.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/minjs/car.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
