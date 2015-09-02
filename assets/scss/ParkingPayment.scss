@@ -37,7 +37,7 @@ p.hint{
 .ui.list .item a:hover {
     color: #333 !important;
 }
-.ui.relaxed.list:not(.horizontal) > .item {
+.ui.relaxed.list:not(.horizontal) .item {
     padding-top: .8rem;
     padding-bottom: .8rem;
 }

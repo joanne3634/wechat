@@ -2386,7 +2386,7 @@ button.ui.button {
   border: 1px solid rgba(39, 41, 43, 0.15);
   box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset; }
 
-.ui.form .field > .selection.dropdown {
+.ui.form .selection.dropdown {
   width: 40%; }
 
 .ui.selection.dropdown {

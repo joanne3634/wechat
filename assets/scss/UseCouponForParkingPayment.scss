@@ -10,7 +10,7 @@
     line-height: 1.2em;
 }
 
-.ui.cards > .card {
+.ui.cards .card {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -18,7 +18,7 @@
 	margin-top: .6em;
     float: none;
 }
-.ui.cards > .card, .ui.card {
+.ui.cards .card, .ui.card {
     max-width: 100%;
     width: 100%;
     position: relative;
@@ -49,15 +49,15 @@
     display: block;
     height: 95px;
 }
-.ui.cards > .useless,.ui.cards > .useless a{
+.ui.cards .useless,.ui.cards .useless a{
     height: 3em;
 }
-.ui.cards > .card a > .content .useless-meta{
+.ui.cards .useless-meta{
     font-size: 1.5em;
     text-align: center;
     padding: .7em;
 }
-.ui.cards > .card a > .content, .ui.card a > .content {
+.ui.cards .content, .ui.card .content {
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
@@ -71,27 +71,27 @@
     border-radius: 6px;
     height: 95px;
 }
-.ui.cards >.card a .content .card-img{
+.ui.cards .card-img{
   	height: 100%;
   	float: left;
   	margin-right: 15px;
 }
-.ui.cards>.card .content img{
+.ui.cards .content img{
   	height: 100%;
   	overflow: hidden;
 }
 
-.ui.cards>.card a >.content>.description{
+.ui.cards .description{
   	clear:none;
 }
-.ui.cards > .card a > .content > .header:not(.ui){
+.ui.cards .header:not(.ui){
 	font-size: 1.3em;
 	padding: .8em 0 .4em 0;
 }
-.ui.cards > .card a > .content > .header{
+.ui.cards .header{
 	font-style: bold;
 }
-.ui.cards > .card a > .content > .meta{
+.ui.cards .meta{
 	color: red;
 	font-size:12px;
 }
