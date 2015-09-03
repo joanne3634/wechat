@@ -26,7 +26,6 @@
 // @import "components/sidebar";
 // #carCode{
 // }
-
 //驗證碼fields
 #validateFields {
     margin-bottom: 1em;
@@ -44,7 +43,7 @@
     }
 }
 
-//車牌
+/*車牌*/
 .ui.form .field > .selection.dropdown {
     @include span-columns(4);
     min-width: initial;
@@ -54,19 +53,18 @@
     margin-bottom: 1em;
     margin-right: 0;
 }
-//車號
+
+/*車號*/
 #carNumber {
     margin-bottom: 1em;
     border-left: none;
     width: 68.23843%;
 }
-//車牌字顏色
-.ui.default.dropdown:hover>.text,
-.ui.default.dropdown>.text,
-.ui.dropdown:hover>.default.text,
-.ui.dropdown>.default.text {
-    color: black;
-}
-#area,#abc{
 
+/*車牌字顏色*/
+.ui.default.dropdown:hover > .text,
+.ui.default.dropdown > .text,
+.ui.dropdown:hover > .default.text,
+.ui.dropdown > .default.text {
+    color: black;
 }

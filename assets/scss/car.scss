@@ -5,29 +5,33 @@
 @import "components/dropdown";
 @import "components/input";
 @import "semantic.min.css";
-
-
 .ui.form .field {
-	width: 100%;
+    width: 100%;
     clear: both;
     display: inline-flex;
     margin-bottom: 1em;
 }
-.ui.form .fields:last-child, .ui.form .field:last-child {
+
+.ui.form .fields:last-child,
+.ui.form .field:last-child {
     margin-bottom: 1em;
 }
-.ui.form input[type="text"]{
-	text-align: center;
+
+.ui.form input[type="text"] {
+    text-align: center;
 }
-button.ui.button{
-	width: 60px;
-	margin-left: 5px;
+
+button.ui.button {
+    width: 60px;
+    margin-left: 5px;
     margin-right: 0px;
 }
-.ui.button,#carNumberLabel {
-	color: black;
+
+.ui.button,
+#carNumberLabel {
+    color: black;
     background-color: #ffffff;
-    padding: 0.6em 1em 0.6em 1em;    
+    padding: 0.6em 1em 0.6em 1em;
     text-transform: none;
     text-shadow: none;
     font-weight: bold;
@@ -37,17 +41,21 @@ button.ui.button{
     border: 1px solid rgba(39, 41, 43, 0.15);
     box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
 }
-.ui.form .selection.dropdown{
+
+.ui.form .selection.dropdown {
     width: 40%;
 }
-.ui.selection.dropdown{
+
+.ui.selection.dropdown {
     min-width: 50px;
 }
+
 #carNumber {
     text-transform: uppercase;
     border-left: none;
     width: 55%;
 }
+
 .ui.default.dropdown:hover>.text,
 .ui.default.dropdown>.text,
 .ui.dropdown:hover>.default.text,

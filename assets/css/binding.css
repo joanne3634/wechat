@@ -4622,6 +4622,7 @@ select.ui.dropdown {
       #validateFields .get-code-field #getCode:last-child {
         margin-right: 0; }
 
+/*車牌*/
 .ui.form .field > .selection.dropdown {
   float: left;
   display: block;
@@ -4636,11 +4637,13 @@ select.ui.dropdown {
   .ui.form .field > .selection.dropdown:last-child {
     margin-right: 0; }
 
+/*車號*/
 #carNumber {
   margin-bottom: 1em;
   border-left: none;
   width: 68.23843%; }
 
+/*車牌字顏色*/
 .ui.default.dropdown:hover > .text,
 .ui.default.dropdown > .text,
 .ui.dropdown:hover > .default.text,
