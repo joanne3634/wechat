@@ -1,10 +1,13 @@
 jQuery(document).ready(function($) {
 
-    $('select.dropdown').dropdown(); //Star of車牌介面
+    $('select.dropdown').dropdown(); //Start of車牌介面
     $(".dropdown").click(function(event) {
+        console.log($(".default.text").text().length);
         if ($(".default.text").text().length >= 2) {
             $("#Sheng").show();
-        } else if ($(".default.text").text().length == 1) {
+        }
+        if ($(".default.text").text().length == 1) {
+            $("#Sheng").hide();
             $("#Abc").show();
         }
     });
@@ -17,11 +20,9 @@ jQuery(document).ready(function($) {
     });
 
     $("#Abc fieldset label").mousedown(function(event) {
-        var ShengText = $(".default.text").text();
         $(this).addClass("active").siblings().removeClass('active');
         var getAbc = $(this).text();
         $(".default.text").append(getAbc);
         $("#Abc").hide();
     }); //End of 車牌介面
-
 });

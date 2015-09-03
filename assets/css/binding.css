@@ -4624,11 +4624,11 @@ fieldset {
 
 #Sheng,
 #Abc {
-  z-index: 2;
   display: none;
   position: absolute;
   left: 0;
-  top: 40px; }
+  top: 40px;
+  z-index: 2; }
 
 /*驗證碼fields*/
 #ValidateFields {

@@ -2385,11 +2385,11 @@ fieldset {
 
 #Sheng,
 #Abc {
-  z-index: 2;
   display: none;
   position: absolute;
   left: 0;
-  top: 40px; }
+  top: 40px;
+  z-index: 2; }
 
 .ui.form .fields:last-child, .ui.form .field:last-child {
   margin-bottom: 1em; }
