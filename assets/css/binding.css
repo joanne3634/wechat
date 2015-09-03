@@ -4654,8 +4654,7 @@ fieldset {
       margin-right: 2.35765%;
       width: 100%;
       border-radius: 0px !important;
-      border: 1px solid rgba(39, 41, 43, 0.15);
-      padding: 8px 0px; }
+      border: 1px solid rgba(39, 41, 43, 0.15); }
       #ValidateFields .get-code-field #GetCode:last-child {
         margin-right: 0; }
 

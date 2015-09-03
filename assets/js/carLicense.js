@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
 
     $('select.dropdown').dropdown(); //Start of車牌介面
-    $(".dropdown").click(function(event) {
+    $(".ui.dropdown.selection").bind('touchstart click', function(event) {
         console.log($(".default.text").text().length);
         if ($(".default.text").text().length >= 2) {
             $("#Sheng").show();
@@ -10,7 +10,9 @@ jQuery(document).ready(function($) {
             $("#Sheng").hide();
             $("#Abc").show();
         }
+       
     });
+
 
     $("#Sheng fieldset label").mousedown(function(event) {
         $(this).addClass("active").siblings().removeClass('active');
