@@ -4595,31 +4595,31 @@ select.ui.dropdown {
 /*******************************
          Site Overrides
 *******************************/
-#validateFields {
+#ValidateFields {
   margin-bottom: 1em; }
-  #validateFields .validate-code {
+  #ValidateFields .validate-code {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 57.35098%; }
-    #validateFields .validate-code:last-child {
+    #ValidateFields .validate-code:last-child {
       margin-right: 0; }
-  #validateFields .get-code-field {
+  #ValidateFields .get-code-field {
     text-align: right;
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 40.29137%; }
-    #validateFields .get-code-field:last-child {
+    #ValidateFields .get-code-field:last-child {
       margin-right: 0; }
-    #validateFields .get-code-field #getCode {
+    #ValidateFields .get-code-field #GetCode {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 100%;
       border-radius: 0px !important;
       border: 1px solid rgba(39, 41, 43, 0.15); }
-      #validateFields .get-code-field #getCode:last-child {
+      #ValidateFields .get-code-field #GetCode:last-child {
         margin-right: 0; }
 
 /*車牌*/
@@ -4638,7 +4638,7 @@ select.ui.dropdown {
     margin-right: 0; }
 
 /*車號*/
-#carNumber {
+#CarNumber {
   margin-bottom: 1em;
   border-left: none;
   width: 68.23843%; }

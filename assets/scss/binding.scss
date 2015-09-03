@@ -6,28 +6,9 @@
 @import "components/dropdown";
 @import "components/input";
 @import "semantic.min.css";
-//@import "components/accordion";
-// @import "components/ad";
-// @import "components/breadcrumb";
-// @import "components/card";
-// @import "components/checkbox";
-// @import "components/comment";
-// @import "components/dimmer";
-// @import "components/divider";
-// @import "components/feed";
-// @import "components/flag";
-// @import "components/header";
-// @import "components/image";
-// @import "components/item";
-// @import "components/label";
-// @import "components/list";
-// @import "components/table";
-// @import "components/modal";
-// @import "components/sidebar";
-// #carCode{
-// }
+
 //驗證碼fields
-#validateFields {
+#ValidateFields {
     margin-bottom: 1em;
     .validate-code {
         @include span-columns(7);
@@ -35,7 +16,7 @@
     .get-code-field {
         text-align: right;
         @include span-columns(5);
-        #getCode {
+        #GetCode {
             @include span-columns(12);
             border-radius: 0px!important;
             border: 1px solid rgba(39, 41, 43, 0.15);
@@ -55,7 +36,7 @@
 }
 
 /*車號*/
-#carNumber {
+#CarNumber {
     margin-bottom: 1em;
     border-left: none;
     width: 68.23843%;

@@ -6,33 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>我的车辆</title>
-    <link rel="stylesheet" href="assets/css/car.css">
+    <link rel="stylesheet" href="assets/css/carAuth.css">
     <link rel="stylesheet" href="assets/css/common.css">
-
 </head>
 
 <body>
+    <p>如果您的车牌被恶意绑定，可以通过上传车牌照片和机动车行驶证照片进行车牌认证。由此给您带来的不便我们由衷地表示歉意。
+    </p>
     <form class="ui form">
-         <div class="field">
+        <div class="field">
             <select id="CarCode" class="ui dropdown">
                 <option value="">车牌</option>
                 <option value="0">京</option>
                 <option value="1">净</option>
             </select>
-            <input id="CarNumber" type="text" name="car-number" maxlength="5">
-            <button id="CarCreate" class="ui button" type="submit">新增</button>
+            <input id="CarNumber" type="text" name="carNumber" maxlength="5" placeholder="请输入车牌后5位">
         </div>
-    </form>
-    <form class="ui form">
-        <div class="field">
-            <input placeholder="京A BC123" readonly="" type="text">
-            <button id="CarDelete" class="ui button" type="submit">删除</button>
+        <div class="field inputWrapper">
+            上传车牌照片
+            <input class="fileInput hidden" type="file" name="file3" /> 
         </div>
-    </form>
-    <form class="ui form">
+        <div class="field inputWrapper">
+            上传机动车行驶证照片
+            <input class="fileInput hidden" type="file" name="file3" /> 
+        </div>
         <div class="field">
-            <input placeholder="京A BC123" readonly="" type="text">
-            <button id="CarDelete" class="ui button" type="submit">删除</button>
+            <button id="CarAuthSubmit" class="fluid ui button" type="submit">提交申请</button>
         </div>
     </form>
     <script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>

@@ -1,15 +1,15 @@
 function Click0() {
-	removeClass(document.getElementById("control-tab-1"), "active");
-	addClass(document.getElementById("control-tab-0"), "active");
-	document.getElementById("tab1").style.display = "none";
-    document.getElementById("tab0").style.display = "block";
+	removeClass(document.getElementById("ControlTab1"), "active");
+	addClass(document.getElementById("ControlTab0"), "active");
+	document.getElementById("Tab1").style.display = "none";
+    document.getElementById("Tab0").style.display = "block";
 }
 
 function Click1() {
-	removeClass(document.getElementById("control-tab-0"), "active");
-	addClass(document.getElementById("control-tab-1"), "active");
-	document.getElementById("tab0").style.display = "none";
-    document.getElementById("tab1").style.display = "block";
+	removeClass(document.getElementById("ControlTab0"), "active");
+	addClass(document.getElementById("ControlTab1"), "active");
+	document.getElementById("Tab0").style.display = "none";
+    document.getElementById("Tab1").style.display = "block";
 }
 
 function hasClass(ele,cls) {

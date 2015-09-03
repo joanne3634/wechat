@@ -200,3 +200,6 @@ html {
 *::after,
 *::before {
   box-sizing: inherit; }
+
+body {
+  background-color: #fff; }
