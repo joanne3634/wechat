@@ -3,14 +3,17 @@ jQuery(document).ready(function($) {
 
     $('select.dropdown').dropdown(); //Start of車牌介面
     $(".ui.dropdown.selection").bind('touchstart click', function(event) {
-        console.log($(".default.text").text().length);
+      
         if ($(".default.text").text().length >= 2) {
             $("#Sheng").show();
-            $("#mask").show().css('height', $(window).height());;
+            $("#mask").show().css('height', $(window).height());
+            return;
         }
         if ($(".default.text").text().length == 1) {
             $("#Sheng").hide();
             $("#Abc").show();
+            $("#mask").show().css('height', $(window).height());
+            return;
         }
 
     });
@@ -26,6 +29,7 @@ jQuery(document).ready(function($) {
         $(".default.text").text($(this).text());
         $("#Sheng").hide();
         $("#Abc").show();
+            // $("#mask").hide();
     });
 
     $("#Abc fieldset label").mousedown(function(event) {

@@ -1,4 +1,3 @@
-
 /*車牌號碼 Radio Button*/
 
 fieldset {
@@ -39,11 +38,12 @@ fieldset {
     top: 40px;
     z-index: 2;
 }
-#mask{
-   /* background-color: #f00;*/
-  /*  z-index: 0;*/
+
+#mask {
     display: none;
     position: absolute;
     width: 100%;
-    top:0px;
+    /*top:40px;*/
+    /*background-color: #f00;*/
+    /* z-index: 0;*/
 }
