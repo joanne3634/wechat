@@ -33,5 +33,6 @@ jQuery(document).ready(function($) {
         var getAbc = $(this).text();
         $(".default.text").append(getAbc);
         $("#Abc").hide();
+        $("#mask").hide();
     }); //End of 車牌介面
 });
