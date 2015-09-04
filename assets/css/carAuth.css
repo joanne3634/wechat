@@ -2391,6 +2391,11 @@ fieldset {
   top: 40px;
   z-index: 2; }
 
+#mask {
+  display: none;
+  position: absolute;
+  width: 100%; }
+
 .ui.form .fields:last-child, .ui.form .field:last-child {
   margin-bottom: 1em; }
 

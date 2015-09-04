@@ -4630,6 +4630,11 @@ fieldset {
   top: 40px;
   z-index: 2; }
 
+#mask {
+  display: none;
+  position: absolute;
+  width: 100%; }
+
 .ui.form .field {
   margin-bottom: 1em; }
 
