@@ -146,15 +146,15 @@
             <button id="CarCreate" class="ui button" type="submit">新增</button>
         </div>
     </form>
-    <form class="ui form">
+    <form onsubmit="return validateCarDelete(this)" class="ui form" id="ABCDDDD">
         <div class="fields">
-            <input placeholder="京A BC123" readonly="" type="text">
+            <input readonly="" type="text" name="carLicense" value="ABCDDDD">
             <button id="CarDelete" class="ui button" type="submit">删除</button>
         </div>
     </form>
-    <form class="ui form">
+    <form onsubmit="return validateCarDelete(this)" class="ui form" id="京A BC123">
         <div class="fields">
-            <input placeholder="京A BC123" readonly="" type="text">
+            <input readonly="" type="text" name="carLicense" value="京A BC123">
             <button id="CarDelete" class="ui button" type="submit">删除</button>
         </div>
     </form>
@@ -171,6 +171,7 @@
     <script src="assets/js/semantic.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="assets/minjs/carLicense.js" type="text/javascript" charset="utf-8"></script>
     <script src="assets/minjs/car.js" type="text/javascript" charset="utf-8"></script>
+
 </body>
 
 </html>

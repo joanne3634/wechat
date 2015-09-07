@@ -21,7 +21,6 @@ function CustomAlert(){
 var Alert = new CustomAlert();
 
 function deletePost(id){
-	var db_id = id.replace("post_", "");
 	// Run Ajax request here to delete post from database
 	document.body.removeChild(document.getElementById(id));
 }
