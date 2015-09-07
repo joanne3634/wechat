@@ -1,0 +1,1 @@
+function validateCarCreate(){var e=document.getElementById("CarNumber").value;return console.log(e.length),5!=e.length?(Confirm.render("車牌號已經被其他帳號添加","delete_post","post_2","好的","車牌認證"),!1):!0}
