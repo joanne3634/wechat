@@ -7,7 +7,12 @@
 @import "components/input";
 @import "semantic.min.css";
 @import "carcode";
+
 /*驗證碼fields*/
+
+.ui.form .field > .selection.dropdown {
+    position: relative;
+}
 
 #ValidateFields {
     margin-bottom: 1em;

@@ -4642,6 +4642,9 @@ fieldset {
   /* z-index: 0;*/ }
 
 /*驗證碼fields*/
+.ui.form .field > .selection.dropdown {
+  position: relative; }
+
 #ValidateFields {
   margin-bottom: 1em; }
   #ValidateFields .validate-code {
