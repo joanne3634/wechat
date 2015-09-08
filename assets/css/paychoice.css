@@ -2443,6 +2443,9 @@ html {
 p {
   margin-bottom: 4em; }
 
+span {
+  color: green; }
+
 .botton-white {
   border: 1px solid rgba(39, 41, 43, 0.15) !important;
   font-weight: normal !important;

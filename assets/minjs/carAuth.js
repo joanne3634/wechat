@@ -1,1 +1,1 @@
-jQuery(document).ready(function(e){});
+function validateCarCreate(){var e=document.getElementById("CarNumber").value;return 5!=e.length?(Alert.render("请输入正确的手机号码","好的"),!1):5!=e.length?(Confirm.render("该车牌号已被其他帐号添加,您可以进行车牌认证以找回",null,null,"redirect",document.location.origin+"/CarAuth.html","稍後认证","马上认证"),!1):!0}function carLicenseAuth(e){var r=!0;return r?AlertURL.render("提交成功,我们将尽快帮您进行处理,请随时关注进度。","好的","redirect",document.location.origin+"/afterCarAuth.html"):Alert.render("提交失败,请尝试重新上传照片後再次提交。","好的"),!1}

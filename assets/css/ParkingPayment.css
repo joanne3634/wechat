@@ -3260,6 +3260,12 @@ body {
 .content .value.green {
   color: green; }
 
+.content .large {
+  font-weight: bold; }
+
+.content .value.large {
+  font-size: 30px; }
+
 p.hint {
   padding-top: 10px;
   font-size: 13px; }
