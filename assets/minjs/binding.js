@@ -1,1 +1,1 @@
-jQuery(document).ready(function(e){});
+jQuery(document).ready(function(e){Alert.render("请输入正确的手机号码","Yes")});
