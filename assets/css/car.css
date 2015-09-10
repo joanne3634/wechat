@@ -4689,6 +4689,7 @@ button.ui.button {
     margin-right: 0; }
 
 #CarNumber {
+  text-transform: uppercase;
   border-left: none;
   width: 42.6%; }
 
