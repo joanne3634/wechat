@@ -3254,6 +3254,9 @@ body {
   .content .value:last-child {
     margin-right: 0; }
 
+.content .value:last-child {
+  text-align: right; }
+
 .content .value.red {
   color: red; }
 
@@ -3298,3 +3301,7 @@ p.hint {
   position: relative;
   margin-right: 10px;
   border-radius: 3px; }
+
+.gray {
+  margin-left: 1em;
+  color: #b7b5b5; }

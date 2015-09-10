@@ -7,5 +7,9 @@ body {
   background-color: #09ba07 !important;
   color: #fff !important; }
 
+.button-gray {
+  background-color: #999 !important;
+  color: #fff !important; }
+
 input {
   border-radius: 0px !important; }

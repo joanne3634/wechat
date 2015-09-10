@@ -2361,6 +2361,7 @@ fieldset {
   background-color: #fff; }
 
 .radioBtn {
+  margin: 1px;
   display: inline-block;
   background-color: #fff;
   height: 30px;

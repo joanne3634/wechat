@@ -5,6 +5,7 @@ fieldset {
 }
 
 .radioBtn {
+    margin:2px;
     display: inline-block;
     background-color: #fff;
     height: 30px;
