@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*車牌號碼 Radio Button*/
+
 fieldset {
   background-color: #fff; }
 
@@ -32,3 +33,6 @@ fieldset {
   position: absolute;
   left: 0;
   top: 40px; }
+  .ui.form .field{
+  position: relative;
+}

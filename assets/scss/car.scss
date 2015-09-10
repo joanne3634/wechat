@@ -5,9 +5,8 @@
 @import "components/form";
 @import "components/dropdown";
 @import "components/input";
-@import "semantic.min.css"; 
+@import "semantic.min.css";
 @import "carcode";
-
 .ui.form .fields:last-child,
 .ui.form .field:last-child {
     margin-bottom: 1em;
@@ -31,6 +30,7 @@ button.ui.button {
     border: 1px solid rgba(39, 41, 43, 0.15);
     box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
 }
+
 .ui.form .fields > .selection.dropdown {
     @include span-columns(4);
     min-width: initial;
@@ -39,6 +39,7 @@ button.ui.button {
     border: 1px solid rgba(39, 41, 43, 0.15);
     margin-right: 0;
 }
+
 #CarNumber {
     border-left: none;
     width: 42.6%
@@ -49,4 +50,8 @@ button.ui.button {
 .ui.dropdown:hover>.default.text,
 .ui.dropdown>.default.text {
     color: black;
+}
+
+.ui.form .fields > .selection.dropdown {
+    max-height: 43px;
 }

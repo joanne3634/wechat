@@ -6,6 +6,10 @@
 @import "components/input";
 @import "semantic.min.css";
 @import "carcode";
+
+.ui.form .field > .selection.dropdown{
+    max-height: 43px;
+}
 .ui.form .fields:last-child, .ui.form .field:last-child {
     margin-bottom: 1em;
 }

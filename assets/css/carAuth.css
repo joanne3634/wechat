@@ -2357,6 +2357,9 @@ select.ui.dropdown {
          Site Overrides
 *******************************/
 /*車牌號碼 Radio Button*/
+.ui.form .field {
+  position: relative; }
+
 fieldset {
   background-color: #fff; }
 
@@ -2389,7 +2392,7 @@ fieldset {
   display: none;
   position: absolute;
   left: 0;
-  top: 40px;
+  top: 45px;
   z-index: 2; }
 
 #mask {
@@ -2398,7 +2401,13 @@ fieldset {
   width: 100%;
   /*top:40px;*/
   /*background-color: #f00;*/
-  /* z-index: 0;*/ }
+  z-index: 1; }
+
+.ui.form .fields > .selection.dropdown {
+  max-height: 43px; }
+
+.ui.form .field > .selection.dropdown {
+  max-height: 43px; }
 
 .ui.form .fields:last-child, .ui.form .field:last-child {
   margin-bottom: 1em; }
